@@ -1,0 +1,94 @@
+:root{
+    --primario: #a99395;
+    --primarioOscuro: #600909;
+    --secundario: #ffce00;
+    --secundarioOscuro: rgb(233, 287, 2);
+    --blanco: #FFF;
+    --negro: #000;
+--fuentePrincipal: 'Staatliches', cursive;
+}
+
+body{
+    background-color: var(--primario);
+}
+
+.titulo{
+    color: #580d0d;
+    text-align: center;
+    font-style: italic;
+}
+
+.name{
+    color: #041264;
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 3%;
+}
+
+.conter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    /*font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-right: 5%;*/
+    font-size: 1.2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-right: 20%;
+}
+
+.heroes{
+  width: 200px; /* Cambia el tamaño a 200 píxeles (ajusta según sea necesario) */
+  height: 200px; /* Ajusta la altura automáticamente para mantener la proporción original */
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.contenedor{
+ 
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.contenidoCostilla{
+    width: 100%;
+    text-align: right;
+    margin-left: 5%;
+}
+
+.img_C{
+    /*width: 80%; 
+    max-width: 300px; 
+    height: auto; 
+    margin-left: 5%; 
+    margin-right: 5%; 
+    border-radius: 25px;*/
+    width: 300px;
+    height: 300px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
